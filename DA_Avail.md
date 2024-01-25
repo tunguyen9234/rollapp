@@ -75,6 +75,7 @@ roller keys export rollapp_sequencer
 roller keys export my_celes_key
 roller keys export my_avail_key
 ```
+## Portal Listing to the [guide](https://docs.dymension.xyz/build/production/portal-listing)
 # migrate DA from celestia to A vail
 ## migrate
 ```
