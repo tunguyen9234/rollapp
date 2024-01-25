@@ -39,10 +39,10 @@ tail -f ~/.roller/rollapp/rollapp.log
 tail -f ~/.roller/relayer/relayer.log
 ```
 # IBC transfer
-- check src-channel :
-  ```
- roller relayer status
- ```
+- check src-channel
+```
+roller relayer status
+```
 - fund the Dymension Hub faucet with your RollApp token on froopyland testnet
 ```
 roller tx fund-faucet
