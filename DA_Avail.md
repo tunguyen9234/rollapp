@@ -90,8 +90,8 @@ roller config set da avail
 
 sed -i 's|wss://dymension-devnet.avail.tools/ws|wss://goldberg.avail.tools/ws|g' /root/.roller/rollapp/config/dymint.toml
 
-**edit $HOME/.roller/da-light-node/avail.toml and $HOME/.roller/rollapp/config/dymint.toml to correct your Mnemonic and check again roller keys list
-faucet avail to the [guide](https://docs.availproject.org/about/faucet/)**
+- edit $HOME/.roller/da-light-node/avail.toml and $HOME/.roller/rollapp/config/dymint.toml to correct your Mnemonic and check again roller keys list
+- faucet avail to the [guide](https://docs.availproject.org/about/faucet/)
 
 roller services load
 
