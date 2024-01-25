@@ -1,4 +1,4 @@
-## create a new rollap according to the [guide]{https://docs.dymension.xyz/build/quick-start/roller-quick/install}
+## create a new rollap according to the [guide](https://docs.dymension.xyz/build/quick-start/roller-quick/install)
 # install
 - install Roller
 ```
@@ -91,7 +91,7 @@ roller config set da avail
 sed -i 's|wss://dymension-devnet.avail.tools/ws|wss://goldberg.avail.tools/ws|g' /root/.roller/rollapp/config/dymint.toml
 
 ***edit $HOME/.roller/da-light-node/avail.toml and $HOME/.roller/rollapp/config/dymint.toml to correct your Mnemonic and check again roller keys list***
-- faucet avail to the [guide]{https://docs.availproject.org/about/faucet/}
+- faucet avail to the [guide](https://docs.availproject.org/about/faucet/)
 
 roller services load
 
@@ -110,7 +110,7 @@ tail -f ~/.roller/rollapp/rollapp.log
 tail -f ~/.roller/relayer/relayer.log
 ```
 # Update Your RollApp in the Dymension Registry
-- you will need to submit a new PR [here][https://docs.dymension.xyz/build/production/portal-listing]
+- you will need to submit a new PR [here](https://docs.dymension.xyz/build/production/portal-listing)
 - check rollapp
 ```
 roller config export
