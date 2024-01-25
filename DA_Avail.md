@@ -1,5 +1,5 @@
-## create a new rollap according to the [guide](https://docs.dymension.xyz/build/quick-start/roller-quick/install)
-# install
+# create a new rollap according to the [guide](https://docs.dymension.xyz/build/quick-start/roller-quick/install)
+## install
 - install Roller
 ```
 curl -L https://dymensionxyz.github.io/roller/install.sh | bash
@@ -38,7 +38,7 @@ sudo systemctl status relayer
 tail -f ~/.roller/rollapp/rollapp.log
 tail -f ~/.roller/relayer/relayer.log
 ```
-# IBC transfer
+## IBC transfer
 - check src-channel
 ```
 roller relayer status
@@ -63,7 +63,7 @@ $balances dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 thonguyen_8920268-1
 ```
 $request <user-address> <rollapp-id>
 ```
-# keys
+## keys
 - List keys
 ```
 roller keys list
@@ -75,8 +75,8 @@ roller keys export rollapp_sequencer
 roller keys export my_celes_key
 roller keys export my_avail_key
 ```
-##  migrate DA from celestia to A vail
-# migrate
+# migrate DA from celestia to A vail
+## migrate
 ```
 systemctl stop da-light-client 
 systemctl stop sequencer
@@ -109,7 +109,7 @@ sudo systemctl status relayer
 tail -f ~/.roller/rollapp/rollapp.log
 tail -f ~/.roller/relayer/relayer.log
 ```
-# Update Your RollApp in the Dymension Registry
+## Update Your RollApp in the Dymension Registry
 - you will need to submit a new PR [here](https://docs.dymension.xyz/build/production/portal-listing)
 - check rollapp
 ```
